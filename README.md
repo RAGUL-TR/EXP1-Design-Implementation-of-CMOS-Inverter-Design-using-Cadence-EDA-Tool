@@ -1,20 +1,20 @@
-Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
+# Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
 
-Aim:
+## Aim:
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
 Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
   
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+### S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -84,7 +84,7 @@ iv)	Creating the new test cell view
 
 
  
-Analog simulation by SPECTRE.
+### Analog simulation by SPECTRE:
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -97,7 +97,7 @@ Analog simulation by SPECTRE.
  ![image]![screenshot-1](https://github.com/user-attachments/assets/4ef68ad2-f17c-4f46-99ad-1c90d27919d2)
 
 
-For Transient Analysis Settings and Output
+## For Transient Analysis Settings and Output
  
  
  ![image](![WhatsApp Image 2024-09-04 at 7 02 05 PM](https://github.com/user-attachments/assets/0b0b2984-0fae-48c9-ae59-35fde50c6b83)
@@ -106,7 +106,7 @@ For Transient Analysis Settings and Output
  ![image](![screenshot 3 (2)](https://github.com/user-attachments/assets/d5ab07e6-1967-4c9b-a0f6-e8a89694eed3)
 
 
- For DC Analysis Settings and Output
+## For DC Analysis Settings and Output
 ![image](![screenshot 3](https://github.com/user-attachments/assets/6c605618-3338-4d0b-8155-e8a8e55dceb7)
 
 
@@ -120,7 +120,7 @@ For Transient Analysis Settings and Output
 
  
 
-Results:
+## Results:
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
